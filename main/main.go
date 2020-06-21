@@ -78,5 +78,17 @@ func main() {
 	}
 
 	fmt.Println("---------------------------------------------")
+	
+	//输入继续
+	var Confirm string
+
+	for{
+		fmt.Print("输入任意值继续(不能为空)：")
+		fmt.Scan(&Confirm)
+
+		if Confirm != ""{
+			break
+		}
+	}
 
 }
